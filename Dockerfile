@@ -7,7 +7,7 @@ RUN apt install -y \
     libpci-dev \
     libegl-dev
 
-RUN pip install scrapy==2.5.0 scrapy-selenium==0.0.7 selenium==3.141.0 webdrivermanager
+RUN pip install scrapy==2.11.1 scrapy-selenium==0.0.7 selenium==3.141.0 webdrivermanager
 
 RUN webdrivermanager firefox --linkpath /usr/local/bin 
 
